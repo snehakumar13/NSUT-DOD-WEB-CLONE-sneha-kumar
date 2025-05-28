@@ -1,0 +1,126 @@
+
+#logo1{
+    width: 250px;
+    align-content: left;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+.icon {
+    background-color: #fdfdfd;  
+    color: rgb(0, 0, 0);               
+    border: none;              
+    padding: 10px 5px;        
+    font-size: 15px;            
+    border-radius: 0;         
+    cursor: pointer;            
+    transition: border 0.3s ease;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: space-between;      
+  gap: 0px;              
+  align-items: center;
+}
+.rightlogo{
+  display: flex;
+  gap: 20px; 
+  padding-right: 20px;
+}
+.icon {
+  width: 40px;            
+  height: 40px;
+}
+.icon:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+.icon {
+  margin-left: 25px; 
+}
+
+#logo2{
+    width: 25px;
+}
+
+.bg1 {
+    color: rgb(251, 243, 234);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: #F2F2F2;
+    z-index: -2;
+}
+.upper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+}
+
+.logo3{
+    padding: 20px 0px;
+    padding-bottom: 1px;
+    padding-left: 100;
+    width: 260px;
+}
+#box2{
+    width: 10px;
+    height: 20px;
+}
+p{
+    font-family: Cardo;
+    font-size: 15px;
+    margin-left: 30px;
+    padding-bottom: 100;
+}
+#box2{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 1000px;
+    height: auto; 
+    position: absolute;
+}
+.container{
+    position: relative;
+}
+
+#ritu{
+    position: absolute;
+    top: 10px; 
+    left: 35px;
+}
+.textbox{
+  position: absolute;
+  display: flex;
+  flex-direction: column;      
+  justify-content: flex-end;
+  left: 50%;
+  top: 2420px;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6); 
+}
+.textbox2{
+  position: absolute;
+  display: flex;
+  flex-direction: column;     
+  justify-content: flex-end;
+  left: 80%;
+  top: 2420px;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6); 
+}
