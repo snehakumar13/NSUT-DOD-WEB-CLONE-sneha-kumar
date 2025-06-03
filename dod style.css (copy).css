@@ -1,0 +1,219 @@
+.logo1{
+    width: 30px;
+    left: 85%;
+    margin-right: 360px;
+}
+.icon {
+    background-color: #fdfdfd;  
+    color: rgb(0, 0, 0);               
+    border: none;              
+    padding: 10px 5px;        
+    font-size: 15px;            
+    border-radius: 0;         
+    cursor: pointer;            
+    transition: border 0.3s ease;
+    text-align: center;
+    white-space: nowrap;
+}
+a{
+  text-decoration: none;
+}
+
+.icon-row {
+    display: flex;
+    position: fixed;
+    left:2%;
+    top: 2.5%;
+    justify-content: space-between;      
+    gap: 0px;
+    z-index: 99999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightlogo{
+  display: flex;
+  gap: 20px; 
+  margin-top: -10px;
+  color: black;
+  
+}
+.icon-button {
+  all: unset;                  
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  padding: 4px 0;
+  transition: color 0.3s ease-in-out;
+  text-decoration: none; 
+}
+a.icon-button {       
+  text-decoration: none;
+}
+
+.icon-button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: red;
+  transition: width 0.3s ease-in-out;
+}
+
+.icon-button:hover {
+  color: red;
+}
+.icon-button:hover::after {
+  width: 100%;
+}
+#logo2{
+    width: 40px;
+}
+
+.bg1 {
+    color: rgb(251, 243, 234);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: #F2F2F2;
+    z-index: -2;
+}
+.upper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999;
+}
+
+.logo3{
+  margin-top: 110px;
+  margin-left: 20px;
+  top: 100%;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  width: 400px;
+}
+#box2{
+    width: 10px;
+    height: 20px;
+}
+p{
+  padding-left: 30px;
+  font-family: Cardo;
+  font-size: 18px;
+  padding-bottom: 100;
+}
+#box2{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 1000px;
+    height: auto; 
+    position: absolute;
+}
+.container{
+    position: relative;
+}
+
+#ritu{
+  padding-top:60px;
+  position: absolute;
+  left: 18px;
+  display: inline-block;
+}
+.textbox{
+  position: absolute;
+  display: flex;
+  flex-direction: column;      
+  justify-content: flex-end;
+  left: 48%;
+  margin-top: 235%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6); 
+}
+.textbox2{
+  position: absolute;
+  display: flex;
+  flex-direction: column;     
+  justify-content: flex-end;
+  left: 85%;
+  margin-top: 235%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6); 
+}
+.icon-row2 {
+  display: flex;
+  justify-content: space-between;      
+  gap: 0px;             
+  align-items: center;
+}
+.icon-row3 {
+  top:450px;
+  position: absolute;
+  left: 18px;
+  display: inline-block;
+}
+.icon-row4 {
+  top:840px;
+  position: absolute;
+  left: 18px;
+  display: inline-block;
+}
+.icon-row5 {
+  top:1230px;
+  position: absolute;
+  left: 18px;
+  display: inline-block;
+}
+.icon-row6 {
+  top:1620px;
+  position: absolute;
+  left: 18px;
+  display: inline-block;
+}
+
+body {
+    background: transparent;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    background: transparent;
+}
+
+.icon-button::after{
+  z-index: 10;
+}
+
+iframe:hover{
+  z-index: 9999;
+}
+iframe{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.brochure{
+  position: fixed;
+  bottom: 20px; 
+  left: 20px;  
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 9999;
+}

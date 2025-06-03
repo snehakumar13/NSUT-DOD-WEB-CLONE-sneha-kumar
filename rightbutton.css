@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container {
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.logo-wrapper {
+  background-color: rgba(255, 202, 202, 1);
+  border-radius: 14px;
+  width: 300px;
+  height: 350px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 0;
+  margin-left: 300px;
+}
+
+.logo-wrapper:hover {
+  background-color: #FF5C5C;
+}
+
+.logo-image {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  transition: all 0.5s ease;
+  z-index: 2;
+  border-radius: 3px;
+}
+
+
+.text-section {
+  position: absolute;
+  top: 260px; 
+  left: auto;
+  right: 15px;
+  text-align: right;
+  font-size: 12px;
+  margin-left: 18%;
+}
+
+
+.text-section h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.text-section h3,
+.text-section .subtext{
+  line-height: 0.5;
+}
+
+.text-section .subtext,
+.text-section .highlight {
+  line-height: 1;
+}
+
+.subtext {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.logo-wrapper.text-section{
+    font-size: 11px;
+  margin-left: 23%;
+  margin-top: 94%;
+}
+
+.highlight {
+  font-size: 13px;
+  font-weight: 800;
+  color: #a94442;
+}
+
+
+.description {
+  opacity: 0;
+  text-align: left;
+  pointer-events: none;
+  transform: translateY(0);
+  position: relative;
+  z-index: 1;
+  margin-left: 265px;
+  transition: opacity 0.5s ease;
+  padding: 6px;
+  margin-right: auto;
+  color: white;
+  
+}
+
+.description .text1 {
+  font-weight: bold;
+  font-size: 13px;
+  text-align: left;
+  margin-top: 10px;
+
+}
+
+.description .text2 {
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+  text-align: left;
+  max-width: 190%;
+  margin-left: -76%;
+  margin-top: 10px;
+}
+
+.description .text1,
+.description .text2 {
+  line-height: 1.2;
+}
+
+
+
+#expandable.expanded .logo-wrapper {
+  display: flex;
+  width: 610px;
+  height: 350px;
+  background-color: rgba(255, 202, 202, 1);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transform: translateX(-300px);
+}
+
+
+#expandable.expanded .logo-image {
+  width: 140px;
+  top: 20px;
+  left: 40px;
+  right: auto;
+}
+
+
+#expandable.expanded .description {
+  pointer-events: auto;
+  ight: auto;
+  text-align: right;
+  color: black;
+  opacity: 1;
+}
+#expandable.expanded .text-section {
+  color: black;
+  top: 200px;
+  left:-67px; 
+  text-align: left;  
+}
+
+
+#expandable.expanded {
+  
+  pointer-events: auto !important;
+}
+
+body {
+  background: transparent !important;
+  margin: 0;
+  padding: 0;
+}
